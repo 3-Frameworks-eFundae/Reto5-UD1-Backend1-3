@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>API Rest Usuarios</title>
+    <style>
+        body{
+            margin: 2%;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+        td, th{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Peticiones al API RestFul</h2>
+    <table>
+        <tr>
+            <th>Método</th>
+            <th>Ruta</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/usuarios">/usuarios</a></td>
+            <td>Muestra todos los usuarios</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td><a href="/usuarios/2">/usuarios/2</a></td>
+            <td>Muestra el usuario con ID 1</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/usuarios</td>
+            <td>Crea un nuevo usuario</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>/usuarios/1</td>
+            <td>Modifica el usuario con ID 1</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/usuarios/1</td>
+            <td>Elimina el usuario con ID 1</td>
+        </tr>
+    </table>
+</body>
+
+</html>
